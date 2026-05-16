@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663495665190/4MM3f2yuXrndQGkerQtLod",
+    "access_key_id": "ASIAZV3A2ECZMEYAO35L",
+    "secret_access_key": "tRdffO6VDlrRYE3eWGgsnHTfUtrkfPk7b8oH7Dgt",
+    "session_token": "IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJGMEQCIHA81q0FMRHBuJvlqQyfm6bhkdSD7TH8tQxSYoAOHiTqAiBG0M4MeiIHJ4AcPSNzpHwGtjV2cIzbg2U1EJaZmb63GSr+AwiR//////////8BEAQaDDY2NTM4NjA5ODg2NiIMfES6C0XeiaHM27L3KtIDl5CO904Ojq6vqCNLI8R4bgYE2hqlYme3ghdyu1dD9bcrn24dHpn/bEqpZi0NOyKRtVhaDp+KnOfCERINxebI2U+V0itvfj0l6f/Ma59QcQQERP85urqYkOy/BjrFfHCiB6eJDyDD1DE3RjcpY77S4VN+VXzyf7OBRwYNMfE+kknYqdU7UUbX450fVWZze7RXIFX5+fovsaKuDIGGdDBEHZlOET7VFv8xSovkKBXQptQPB9xZe0AAdHHGOOww9xZnCs7JiRwRa5Yeg3C/PR7cl+nmwkmSbnHWi+FNIwzv0MrQ0rMZpa5w7EorFUUYmyNynEXE0J9xJg5Xc2J3qk6v4cCyyl0VGIgPdewvZtP9orxu1gVR8pOAxQk6+buIQnfvVoNGp3hdIj9Ir+wF/LFvbV0tDzVL/k7hj4Di8LgRgH22T74uA87ZLJ4B+AhTieyR89rFxijyAdc8/LylYRd74HWCsNpmRMU6+OfycMR5LeQUIhkD4JPfxRBzzIuV12oxTdp3iahEZKurlSPPSsuy7Hq+FjlVyBnzL5vlax5PgJeguiW9EHwspIo1FJw7Z+Lx83engRcShDtPPGCG5Qh7uPDvxeHvQPCmQLpoqxVqEwawPDCEpaLQBjqeAdWNZaNrBdbU2ncDhuHsOFEXGuPEqF9PbJHO3K6aFmqx+TOt6bEIKz5A/PM0wnVuhLOKTatFmkzg+b5h3QP2pgVri5Cn+d+yP4MtDtInOBoPlPeL+UrtRnnAmFReGK3vGfbOIKRSH8aixzOn34q4givl1Mffpl70zv4DMR/yg0/P6Xc8ZX++yEZgmfb3AFiIMIG3049jGjMR/zE0KPxI",
+    "expiration": "2026-05-17T03:51:32.000Z"
+  },
+  "name": "street_food_rater",
+  "path": "/home/ubuntu/street_food_rater",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "8jEdvKmGm6y32zgwBwjecD",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "mYvRnEdtn4wVtC3jyWoMKL",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Khushi Kumari",
+    "OWNER_OPEN_ID": "HykYPaKMohLPWz6kAfUmPb",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "cd796cad-411c-46e6-a882-456b69c42190",
+    "VITE_APP_ID": "4MM3f2yuXrndQGkerQtLod",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Street Food Safety Rater",
+    "VITE_FRONTEND_FORGE_API_KEY": "hLVVUCyzj8tSsEWmY9oh52",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
