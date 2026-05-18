@@ -25,7 +25,7 @@
 - [x] Create VendorDetailPage with ratings and photos
 - [x] Create AddVendorPage with address geocoding
 - [x] Create RatingPage with star rating widget
-- [ ] Create AdminDashboard for vendor approval
+- [x] Create AdminDashboard for vendor approval
 - [ ] Create UserProfilePage
 
 ## Frontend Components
@@ -43,10 +43,10 @@
 - [ ] Implement location-based search radius
 
 ## Design & Styling
-- [ ] Define color scheme (Grade A/B/C/D colors)
-- [ ] Create responsive layout
-- [ ] Style forms and input fields
-- [ ] Add loading states and animations
+- [x] Define color scheme (Grade A/B/C/D colors)
+- [x] Create responsive layout
+- [x] Style forms and input fields
+- [x] Add loading states and animations
 - [ ] Implement dark/light theme support
 
 ## Authentication & Authorization
