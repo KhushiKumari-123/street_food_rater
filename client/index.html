@@ -17,10 +17,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+    <script type="module">
+      const _endpoint = import.meta.env.VITE_ANALYTICS_ENDPOINT;
+      const _websiteId = import.meta.env.VITE_ANALYTICS_WEBSITE_ID;
+      if (_endpoint && _websiteId) {
+        const s = document.createElement('script');
+        s.defer = true;
+        s.src = `${_endpoint.replace(/\/+$/,'')}/umami`;
+        s.setAttribute('data-website-id', _websiteId);
+        document.head.appendChild(s);
+      }
+    </script>
   </body>
 
 </html>

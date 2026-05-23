@@ -1,4 +1,11 @@
-import { eq, and, desc, gte, lte } from "drizzle-orm";
+declare const process: {
+  env: {
+    DATABASE_URL?: string;
+    OWNER_OPEN_ID?: string;
+  };
+};
+
+import { eq, desc } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { InsertUser, users, vendors, ratings, photos, Vendor, Rating } from "../drizzle/schema";
 
@@ -193,7 +200,7 @@ export async function updateVendorScore(vendorId: number) {
   const db = await getDb();
   if (!db) return;
 
-  const vendorRatings = await db.select().from(ratings).where(eq(ratings.vendorId, vendorId));
+  const vendorRatings: Rating[] = await db.select().from(ratings).where(eq(ratings.vendorId, vendorId));
 
   if (vendorRatings.length === 0) {
     await db.update(vendors).set({ safetyScore: 0, grade: 'D' }).where(eq(vendors.id, vendorId));
